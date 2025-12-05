@@ -19,5 +19,11 @@ public class Main {
         * Calcula a comissao = R$ 200,00 + 9% da variavel
         * Exibe o valor da comissao
         * */
+        // Variaveis
+        double item1 = 239.99;
+        double item2 = 129.75;
+        double item3 = 99.95;
+        double item4 = 350.89;
+        double comissao = 0;
     }
 }

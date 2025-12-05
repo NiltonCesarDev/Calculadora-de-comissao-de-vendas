@@ -30,9 +30,21 @@ public class Main {
 
         Scanner input = new Scanner(System.in); // Objeto input
 
-        System.out.print("Informe o item vendido ou digite -1 para sair: ");
+        System.out.print("Informe o item vendido {1, 2, 3 ou 4} ou digite -1 para sair: ");
         int item = input.nextInt();
 
+        while (item != -1) {
+            switch (item)
+            {
+                case 1: comissao += item1; break;
+                case 2: comissao += item2; break;
+                case 3: comissao += item3; break;
+                case 4: comissao += item4; break;
+            }
 
+            System.out.println("Item registrado a comissao!");
+            System.out.print("Informe outro item vendido {1, 2, 3 ou 4} ou digite -1 para sair: ");
+            item = input.nextInt();
+        }
     }
 }

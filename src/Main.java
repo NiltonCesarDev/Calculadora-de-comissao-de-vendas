@@ -29,5 +29,10 @@ public class Main {
         double comissao = 0;
 
         Scanner input = new Scanner(System.in); // Objeto input
+
+        System.out.print("Informe o item vendido ou digite -1 para sair: ");
+        int item = input.nextInt();
+
+
     }
 }

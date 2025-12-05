@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         /*
@@ -25,5 +27,7 @@ public class Main {
         double item3 = 99.95;
         double item4 = 350.89;
         double comissao = 0;
+
+        Scanner input = new Scanner(System.in); // Objeto input
     }
 }
